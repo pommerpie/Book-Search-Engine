@@ -5,13 +5,13 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,
+    port: 3005,
     open: true,
     proxy: {
-      '/graphql': {
-        target: 'http://localhost:3001',
+      '/api': {
+        target: 'http://localhost:3005',
         secure: false,
-        changeOrigin: true,
+        changeOrigin: true
       }
     }
   }
