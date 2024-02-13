@@ -17,7 +17,7 @@ Use the search bar to search for books. Use the login and signup buttons to make
 <img src="screenshot.png" height="300">
 
 ## Deployment
-You can see the app in action <a href="[link](https://book-search-6mar.onrender.com/)>here!</a>
+You can see the app in action <a href="https://book-search-6mar.onrender.com">here!</a>
 
 ## Questions
 If you have any questions or comments, please contact me at:
